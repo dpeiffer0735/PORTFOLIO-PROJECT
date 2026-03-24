@@ -1,5 +1,5 @@
 /**
- * {@code PlayerStatsTrackerKernel} enchanced with secondary methods
+ * {@code PlayerStatsTrackerKernel} enchanced with secondary methods.
  */
 public interface PlayerStatsTracker extends PlayerStatsTrackerKernel {
 
