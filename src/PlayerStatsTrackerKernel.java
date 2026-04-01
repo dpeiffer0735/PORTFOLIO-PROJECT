@@ -1,3 +1,4 @@
+import components.standard.Standard;
 /**
  * PlayerStatsTrackerKernel models the core operations to track a basketball
  * player's statistics during a game.
@@ -23,8 +24,8 @@ public interface PlayerStatsTrackerKernel extends Standard<PlayerStatsTracker> {
      * @updates this
      * @requires pts >= 0
      * @ensures this.points = #this.points + pts
-     * @ensures this.fieldGoalsMade = #this.fieldGoalsMade + 1
-     * @ensures this.fieldGoalsAttempted = #this.fieldGoalsAttempted + 1
+     *      AND this.fieldGoalsMade = #this.fieldGoalsMade + 1
+     *      AND this.fieldGoalsAttempted = #this.fieldGoalsAttempted + 1
      */
     void fieldGoalMade(int pts);
 
@@ -83,4 +84,67 @@ public interface PlayerStatsTrackerKernel extends Standard<PlayerStatsTracker> {
      * @ensures this.steals = #this.steals + 1
      */
     void recordSteal();
+
+    /**
+     * Returns the number of points.
+     *
+     * @return current points
+     */
+    int points();
+
+    /**
+     * Returns the number of rebounds.
+     *
+     * @return current rebounds
+     */
+    int rebounds();
+
+    /**
+     * Returns the number of assists.
+     *
+     * @return current assists
+     */
+    int assists();
+
+    /**
+     * Returns the number of steals.
+     *
+     * @return current steals
+     */
+    int steals();
+
+    /**
+     * Returns the number of blocks.
+     *
+     * @return current blocks
+     */
+    int blocks();
+
+    /**
+     * Returns the number of fouls.
+     *
+     * @return current fouls
+     */
+    int fouls();
+
+    /**
+     * Returns the number of turnovers.
+     *
+     * @return current turnovers
+     */
+    int turnovers();
+
+    /**
+     * Returns the number of field goals made.
+     *
+     * @return field goals made
+     */
+    int fieldGoalsMade();
+
+    /**
+     * Returns the number of field goals attempted.
+     *
+     * @return field goals attempted
+     */
+    int fieldGoalsAttempted();
 }
