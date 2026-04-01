@@ -15,7 +15,7 @@ public interface PlayerStatsTracker extends PlayerStatsTrackerKernel {
     /**
      * Returns the players field goal percentage.
      *
-     * @return fieldGoalsMade / fieldGoalsAttempted
+     * @return fieldGoalsMade / fieldGoalsAttempted * 100
      */
     double fieldGoalPercentage();
 
