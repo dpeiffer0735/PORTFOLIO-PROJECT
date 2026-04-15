@@ -9,6 +9,17 @@
  * <p>This representation is chosen because it directly models the real-world
  * statistics being tracked and allows constant-time updates and access to each
  * statistic.
+ *
+ * CONVENTION:
+ * All stat fields are non-negative integers.
+ * No field is ever negative.
+ *
+ * CORRESPONDENCE:
+ * points represents total points scored by the player.
+ * fieldGoalsMade represents successful field goals.
+ * fieldGoalsAttempted represents all shot attempts.
+ * rebounds, assists, steals, blocks, fouls, and turnovers
+ * represent their same game stats.
  */
 public class PlayerStatsTracker1L extends PlayerStatsTrackerSecondary {
 
