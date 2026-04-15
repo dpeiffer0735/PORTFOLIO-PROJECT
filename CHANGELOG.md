@@ -30,3 +30,21 @@ the following form: YYYY.0M.0D.
 
 - Designed kernel and enhanced interfaces for PlayerStatsTracker component.
 - Changed design to include methods and constants in enhanced interface.
+
+## 2026.03.31
+
+### Added
+
+- Designed abstract class for PlayerStatsTracker component
+- Implemented all secondary methods for the enhanced interface in PlayerStatsTrackerSecondary
+- Implemented Object methods 'toString()' and 'equals()'
+
+### Updated
+
+- Changed design to include getter methods
+
+## 2026.04.14
+
+### Added
+- Completed kernel implementation for the PlayerStatsTracker component (PlayerStatsTracker1L), including all kernel and standard methods.
+- Implemented full tracking for player statistics (points, rebounds, assists, steals, blocks, fouls, turnovers, field goals made, field goals attempted).
