@@ -1,0 +1,10 @@
+Out of all my designs, I chose to use my PlayerStatsTracker for tracking a basketball player's stats during a game.
+I chose this idea as basketball statistics (sports in general) provide a real-world
+idea that you can measure and produce calculations from. I also thought about the
+limitation of time. So I won't focus on every stat available just some I feel are most important.
+Each single object will be an individual players stats. To start designing I decided to have the main stats
+to be, points, rebounds, assists, steals, blocks, fouls, turnovers, and field goals.
+Using these stats I can provide different calculations like percentages and
+assist to turnover ratios. For this assignment I did limit what I am adding as I
+do have more ideas but I don't want to over do everything at once. This will lead
+me to future additions like 3pt tracking, free throw tracking, ect.
