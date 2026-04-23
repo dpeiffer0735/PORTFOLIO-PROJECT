@@ -1,3 +1,5 @@
+import components.standard.Standard;
+
 /**
  * PlayerStatsTrackerKernel models the core operations to track a basketball
  * player's statistics during a game.
@@ -22,9 +24,9 @@ public interface PlayerStatsTrackerKernel extends Standard<PlayerStatsTracker> {
      *            points to add
      * @updates this
      * @requires pts >= 0
-     * @ensures this.points = #this.points + pts
-     * @ensures this.fieldGoalsMade = #this.fieldGoalsMade + 1
-     * @ensures this.fieldGoalsAttempted = #this.fieldGoalsAttempted + 1
+     * @ensures this.points = #this.points + pts && this.fieldGoalsMade =
+     *          #this.fieldGoalsMade + 1 && this.fieldGoalsAttempted =
+     *          #this.fieldGoalsAttempted + 1
      */
     void fieldGoalMade(int pts);
 
