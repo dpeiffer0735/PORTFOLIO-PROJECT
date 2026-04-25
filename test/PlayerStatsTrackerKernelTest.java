@@ -1,3 +1,7 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
 /**
  * JUnit tests for PlayerStatsTrackerKernel.
  */
