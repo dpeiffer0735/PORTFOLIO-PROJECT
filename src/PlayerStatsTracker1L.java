@@ -1,25 +1,24 @@
 /**
  * Kernel implementation of the PlayerStatsTracker.
  *
- * <p>This implementation represents the statistical performance of a single
- * basketball player during a game using integer fields. Each field
- * stores a specific statistic such as points, rebounds, assists, steals,
- * blocks, fouls, turnovers, and field goal attempts/makes.
+ * <p>
+ * This implementation represents the statistical performance of a single
+ * basketball player during a game using integer fields. Each field stores a
+ * specific statistic such as points, rebounds, assists, steals, blocks, fouls,
+ * turnovers, and field goal attempts/makes.
  *
- * <p>This representation is chosen because it directly models the real-world
+ * <p>
+ * This representation is chosen because it directly models the real-world
  * statistics being tracked and allows constant-time updates and access to each
  * statistic.
  *
- * CONVENTION:
- * All stat fields are non-negative integers.
- * No field is ever negative.
+ * CONVENTION: All stat fields are non-negative integers. No field is ever
+ * negative.
  *
- * CORRESPONDENCE:
- * points represents total points scored by the player.
- * fieldGoalsMade represents successful field goals.
- * fieldGoalsAttempted represents all shot attempts.
- * rebounds, assists, steals, blocks, fouls, and turnovers
- * represent their same game stats.
+ * CORRESPONDENCE: points represents total points scored by the player.
+ * fieldGoalsMade represents successful field goals. fieldGoalsAttempted
+ * represents all shot attempts. rebounds, assists, steals, blocks, fouls, and
+ * turnovers represent their same game stats.
  */
 public class PlayerStatsTracker1L extends PlayerStatsTrackerSecondary {
 
@@ -61,10 +60,11 @@ public class PlayerStatsTracker1L extends PlayerStatsTrackerSecondary {
     private int turnovers = 0;
 
     /**
-     * Constructs a new PlayerStatsTracker object with all stats initialized to 0.
+     * Constructs a new PlayerStatsTracker object with all stats initialized to
+     * 0.
      *
-     * @ensures all stats (points, fieldGoalsMade, fieldGoalsAttempted, rebounds,
-     * assists, steals, blocks, fouls, turnovers) = 0
+     * @ensures all stats (points, fieldGoalsMade, fieldGoalsAttempted,
+     *          rebounds, assists, steals, blocks, fouls, turnovers) = 0
      */
     public PlayerStatsTracker1L() {
         //all fields already start at 0.
@@ -73,11 +73,11 @@ public class PlayerStatsTracker1L extends PlayerStatsTrackerSecondary {
     /**
      * Records a made field goal.
      *
-     * @param pts the points scored
+     * @param pts
+     *            the points scored
      * @requires pts >= 0
      * @updates this
-     * @ensures points = #points + pts
-     *          and fieldGoalsMade = #fieldGoalsMade + 1
+     * @ensures points = #points + pts and fieldGoalsMade = #fieldGoalsMade + 1
      *          and fieldGoalsAttempted = #fieldGoalsAttempted + 1
      */
     public void fieldGoalMade(int pts) {

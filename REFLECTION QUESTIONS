@@ -1,0 +1,85 @@
+### Reflection
+
+Now that you have created a software component from scratch, it's time to
+reflect on that process as well as take some time to think about your
+growth as a developer. Below, you will find a series of reflection prompts.
+Take some time to fill them out honestly.
+
+> A common gripe that students express is how much they feel the work they do
+> in class fails to map to the real world. Now that you've had a chance to
+> complete the portfolio project, how much better (or worse) do you think you
+> understand software development and why?
+
+I feel like I understand software development more as now I can see all the parts
+that go into it. It's not like one of the projects we are assigned in this I had
+to code more than one file, have test cases, show demos which is way more steps
+than I have had in the past. This just shows how much there is to do in a software
+development project and it's not as simple as just writing some code. You have to
+think, solve problems when the code fails and be creative.
+
+> Also, did the portfolio project surface any gaps in your own knowledge of
+> software development. If so, what are those gaps and how did you address them?
+
+I feel like sometimes I had trouble deciding what I wanted to do or how to complete
+a task. I did some outside research to figure out what should it look like. I feel
+like there wasn't too many gaps in my knowledge since we learned about the kernel
+and secondary parts before. One thing though is I never used Git like branches and
+merging so it was a bit of a different challenge but overall it's easy to use.
+
+> Finally, as a part of completing the portfolio project, to what extent has
+> your perspective of software development changed, if at all? In other words,
+> is software development something you still enjoy? If not, why not?
+
+Personally my perspective hasn't changed I still don't know if it's something I
+will choose to do in my future job. I did enjoy creating my own ideas but I also
+felt like I was stressing myself out sometimes like I couldn't think of what I needed
+to add. It's also hard to decide if like I want to do something like this in the
+future in a job because with jobs you aren't alone so it wouldn't be exactly this
+same scenario.
+
+> One of the challenges of completing the portfolio project is picking up a lot
+> of skills on your own. Some of these skills are, of course, software skills.
+> However, there are plenty of other skills you may have picked up through
+> this process. Therefore, the first question is what skills did you pick up
+> through this process?
+
+I would say I improved my understanding on how to create and design an object. For
+example I got practice in making Kernel and Secondary methods and classes. I obviously
+made test files during projects but this time it felt different as I was also
+making my own methods to call tests on. I also gained experience with Git with
+branches and merging so now I know how it works. I also got better at debugging and
+fixing errors that were either showing or kind of hidden. I also showed that I'm
+able to follow a multiple step project.
+
+> The follow-up question is: could you rephrase these skills you picked up
+> as bullet points that you could put on a resume? Try it below.
+
+- Designed and implemented a Java component using kernel and secondary
+- Made JUnit test files to make sure the component works correctly
+- Able to follow multiple step project to its full goal
+- Used Git for version control using different branches and merging
+- Debugged and resolved errors either shown by checkstyle or found on my own
+- Improved problem-solving and creativity making a component that I wanted.
+
+> Next, how has working on this project affected your career trajectory?
+> In other words, do you now hate the topic you picked? Or, are you even more
+> interested in it? Both outcomes are valuable to your personal development.
+
+I love the topic I picked the reason I chose a basketball stats tracker is because
+I enjoy watching basketball. It would be a dream to have some sort of sport job
+and connecting it to computer science in the future. I have to do some research
+on what this may look like because I don't have a clear idea. I would say I am more
+interested in it but I already was so not too much different.
+
+> Finally, consider the skills you've picked up and your current career
+> trajectory. What are some things you could do to continue on your
+> career trajectory? Also, who are some mentors you could contact to help
+> you stay on your path?
+
+I'm not sure who my mentors could be as again I want to figure out how to connect
+computer science and a sports job. Also past computer science teachers are always
+a good connection to have since they all have different backgrounds and pasts in
+computer science. Some things I can do to work on getting these skills is try to
+complete more projects like this and build up a resume/portfolio.It's always great
+to have skills to show when getting jobs and I know its very important to have
+something like this to get a computer science job.
